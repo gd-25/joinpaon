@@ -959,8 +959,8 @@ video {
 
 .hover\:bg-paongreen:hover {
   --bg-opacity: 1;
-  background-color: #1ddc62;
-  background-color: rgba(29, 220, 98, var(--bg-opacity));
+  background-color: #94CAC5;
+  background-color: rgba(148, 202, 197, var(--bg-opacity));
 }
 
 .rounded-lg {
@@ -1083,8 +1083,8 @@ video {
   height: 10rem;
 }
 
-.h-104 {
-  height: 26rem;
+.h-88 {
+  height: 22rem;
 }
 
 .h-screen {
@@ -1312,8 +1312,8 @@ video {
 
 .hover\:text-paongreen:hover {
   --text-opacity: 1;
-  color: #1ddc62;
-  color: rgba(29, 220, 98, var(--text-opacity));
+  color: #94CAC5;
+  color: rgba(148, 202, 197, var(--text-opacity));
 }
 
 .italic {
