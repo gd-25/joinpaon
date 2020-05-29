@@ -1015,10 +1015,6 @@ video {
   justify-content: space-around;
 }
 
-.flex-none {
-  flex: none;
-}
-
 .flex-shrink-0 {
   flex-shrink: 0;
 }
@@ -1174,10 +1170,6 @@ video {
   margin-right: 1rem;
 }
 
-.mr-2 {
-  margin-right: 0.5rem;
-}
-
 .ml-2 {
   margin-left: 0.5rem;
 }
@@ -1209,11 +1201,6 @@ video {
   padding-right: 1rem;
 }
 
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -1236,12 +1223,12 @@ video {
   padding-top: 0.5rem;
 }
 
-.pr-2 {
-  padding-right: 0.5rem;
-}
-
 .pl-4 {
   padding-left: 1rem;
+}
+
+.pl-6 {
+  padding-left: 1.5rem;
 }
 
 .pl-8 {
@@ -1390,14 +1377,6 @@ video {
     font-size: 3rem;
   }
 
-  .xs\:text-3rem {
-    font-size: 3rem;
-  }
-
-  .xs\:text-5remhalf {
-    font-size: 5.5rem;
-  }
-
   .xs\:px-16 {
     padding-left: 4rem;
     padding-right: 4rem;
@@ -1418,12 +1397,12 @@ video {
     display: block;
   }
 
-  .sm\:inline {
-    display: inline;
-  }
-
   .sm\:hidden {
     display: none;
+  }
+
+  .sm\:h-8 {
+    height: 2rem;
   }
 
   .sm\:h-28 {
@@ -1440,10 +1419,6 @@ video {
 
   .sm\:text-4rem {
     font-size: 4rem;
-  }
-
-  .sm\:text-13xl {
-    font-size: 13rem;
   }
 
   .sm\:px-32 {
@@ -1486,38 +1461,21 @@ video {
     flex-direction: row;
   }
 
-  .md\:h-6 {
-    height: 1.5rem;
-  }
-
   .md\:h-8 {
     height: 2rem;
   }
 
-  .md\:text-3xl {
-    font-size: 1.875rem;
+  .md\:text-4xl {
+    font-size: 2.25rem;
   }
 
   .md\:text-6xl {
     font-size: 4rem;
   }
 
-  .md\:text-2rem75 {
-    font-size: 2.75rem;
-  }
-
-  .md\:mx-3 {
-    margin-left: 0.75rem;
-    margin-right: 0.75rem;
-  }
-
   .md\:mx-4 {
     margin-left: 1rem;
     margin-right: 1rem;
-  }
-
-  .md\:w-96 {
-    width: 24rem;
   }
 
   .md\:w-128 {
@@ -1542,28 +1500,16 @@ video {
 
 @media (min-width: 1280px) {
 
-  .xl\:inline {
-    display: inline;
-  }
-
   .xl\:inline-flex {
     display: inline-flex;
-  }
-
-  .xl\:hidden {
-    display: none;
   }
 
   .xl\:font-bold {
     font-weight: 700;
   }
 
-  .xl\:h-0 {
-    height: 0;
-  }
-
-  .xl\:h-8 {
-    height: 2rem;
+  .xl\:h-4 {
+    height: 1rem;
   }
 
   .xl\:h-12 {
@@ -1574,20 +1520,20 @@ video {
     height: 9rem;
   }
 
+  .xl\:h-48 {
+    height: 12rem;
+  }
+
   .xl\:text-3rem {
     font-size: 3rem;
   }
 
-  .xl\:text-4remhalf {
-    font-size: 4.5rem;
+  .xl\:text-6rem {
+    font-size: 6rem;
   }
 
   .xl\:text-7xl {
     font-size: 7rem;
-  }
-
-  .xl\:text-16xl {
-    font-size: 16rem;
   }
 
   .xl\:px-12 {
