@@ -1343,8 +1343,8 @@ video {
   width: 32rem;
 }
 
-.w-136 {
-  width: 34rem;
+.w-144 {
+  width: 36rem;
 }
 
 .w-1\/6 {
@@ -1518,10 +1518,6 @@ video {
 
   .xl\:h-36 {
     height: 9rem;
-  }
-
-  .xl\:h-48 {
-    height: 12rem;
   }
 
   .xl\:text-3rem {
